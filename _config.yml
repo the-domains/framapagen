@@ -1,28 +1,40 @@
-name: framapagen
 favicon: null
-layout_spectrum: 0.6508349359501153
-typography_spectrum: 0.8097427138127387
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: framapagen
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#71A7FE'
-    - '#399AE7'
-    - '#3B407C'
-    - '#547AB1'
-    - '#CEAFC0'
-  brandStrength: 0.5268407207913697
-  lightness: 0.17693799664266407
-  saturation: 0.1094700456596911
-  rhythmicContrast: 0.33165156398899853
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.1094700456596911
+  brandStrength: 0.5179211
+  lightness: 0.1769379966426641
+  brandColors:
+    - '#161615'
+    - '#FFFFFF'
+    - '#BD775D'
+    - '#FBB491'
+    - '#55A26B'
+  rhythmicContrast: 0.3316515639889985
+typography_spectrum: 0.8097427138127387
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
